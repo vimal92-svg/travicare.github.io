@@ -1,0 +1,448 @@
+@import url('https://fonts.cdnfonts.com/css/canela-text-trial');
+
+
+.scroll-clean-minimal {
+    overflow-x: scroll;
+    overflow: hidden;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 100px;
+    float: left;
+    width: 93%;
+    padding: 0;
+}
+
+.img-drag {
+    position: absolute;
+    top: 70px;
+    left: 600px;
+}
+
+.clean-minimal-card {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    height: 771px;
+    width: 472px;
+}
+
+.clean-minimal {
+    margin-left: -6px;
+    height: 52px;
+    width: 158px;
+    font-family: Canela Text Trial;
+    font-size: 27px;
+    font-weight: 400;
+    color: #114141;
+}
+
+
+.img-responsive {
+    width: 100%;
+    height: 472px;
+    margin-left: 317px;
+    margin-bottom: 67px;
+}
+
+.clean-minimal-card-p {
+    height: 100px;
+    width: 407px;
+    font-family: Canela Text Trial;
+    font-size: 16px;
+    font-weight: 100;
+    color: #666666b6;
+    margin-left: 238px;
+}
+
+.carousal-container {
+    position: relative;
+    cursor: none;
+    user-select: none;
+    
+}
+
+.drag-handler {
+    /* position: "fixed",
+    left: cursorPos.x,
+    top: cursorPos.y,
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "contain",
+    borderRadius: "100%",
+    zIndex: 999,
+    pointerEvents: "none",
+    width: "50px",
+    height: "50px",
+    backgroundColor: "black", */
+}
+
+.container-drag-text {
+    height: 25px;
+    width: 33px;
+    border-radius: nullpx;
+
+    font-family: 'Canela Text Trial';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 157.5%;
+    /* or 25px */
+
+    text-align: center;
+    text-transform: lowercase;
+
+    color: #FFFFFF;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .scroll-clean-minimal {
+        overflow-x: scroll;
+        overflow: hidden;
+        display: flex;
+        margin-top: 80px;
+        margin-left: 16px;
+        float: left;
+        width: 100%;
+        padding: 0;
+    }
+    .clean-minimal-card {
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        height: 785px;
+        width: 190px;
+    }
+
+    .clean-minimal {
+        margin-left: -151px;
+        height: 52px;
+        width: 40px;
+        font-family: Canela Text Trial;
+        font-size: 15px;
+        font-weight: 400;
+        color: #114141;
+    }
+
+    .clean-minimal-card-p {
+        height: 98px;
+        width: 126px;
+        font-family: Canela Text Trial;
+        font-size: 6px;
+        font-weight: 100;
+        color: #666666;
+        margin-left: -62px;
+    }
+
+    .img-responsive {
+        width: 177px;
+        margin-left: -70px;
+        margin-bottom: 70px;
+    }
+
+
+
+
+}
+
+
+
+
+@media only screen and (min-width: 767px) and (max-width: 899px) {
+
+    .scroll-clean-minimal {
+        overflow-x: scroll;
+        overflow: hidden;
+        display: flex;
+        margin-top: 80px;
+        margin-left: 30px;
+        float: left;
+        width: 786px;
+        padding: 0;
+    }
+
+    .img-responsive {
+        width: 280px;
+        margin-left: -37px;
+    }
+
+    .clean-minimal {
+        height: 52px;
+        width: 200px;
+        font-family: Canela Text Trial;
+        font-size: 20px;
+        font-weight: 400;
+        color: #114141;
+    }
+
+    .clean-minimal-card-p {
+        height: 100px;
+        width: 219px;
+        font-family: Canela Text Trial;
+        font-size: 9px;
+        font-weight: 100;
+        margin-left: -21px;
+        color: #666666;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+    .img-responsive {
+        width: 266px;
+        height: 490px;
+        margin-left: -260px;
+    }
+
+    .scroll-clean-minimal {
+        overflow-x: scroll;
+        overflow: hidden;
+        display: flex;
+        margin-top: 80px;
+        margin-left: 30px;
+        width: 97%;
+        padding: 0;
+    }
+
+    .clean-minimal {
+        margin-left: -351px;
+        height: 52px;
+        width: -14px;
+        font-family: Canela Text Trial;
+        font-size: 20px;
+        font-weight: 400;
+        color: #114141;
+    }
+
+    .clean-minimal-card-p {
+        height: 100px;
+        width: 226px;
+        font-family: Canela Text Trial;
+        font-size: 11px;
+        font-weight: 100;
+        padding-right: 291px;
+        color: #666666;
+        margin-left: 11px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+
+    .img-responsive {
+        width: 100%;
+        height: 374px;
+        margin-left: -22px;
+    }
+
+    .img-drag {
+        position: absolute;
+        top: 86px;
+        left: 358px;
+    }
+
+
+    .clean-minimal {
+        margin-left: -171px;
+        height: 52px;
+        width: 158px;
+        font-family: Canela Text Trial;
+        font-size: 27px;
+        font-weight: 400;
+        color: #114141;
+    }
+
+    .clean-minimal-card-p {
+        height: 100px;
+        width: 330px;
+        font-family: Canela Text Trial;
+        font-size: 10px;
+        font-weight: 100;
+        color: #666666;
+        margin-left: 1px;
+        padding-left: -64px;
+
+    }
+
+    .scroll-clean-minimal {
+        overflow-x: scroll;
+        overflow: hidden;
+        display: flex;
+        margin-top: -15px;
+        margin-left: 52px;
+        float: left;
+        width: 93%;
+        padding: 0;
+    }
+
+    .clean-minimal-card {
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        height: 536px;
+        width: 472px;
+    }
+}
+
+@media only screen and (min-width: 1921px) and (max-width: 2560px) {
+
+
+
+
+    .clean-minimal-card {
+        margin-left: 22px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        height: 921px;
+        width: 100%;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 2001px) and (max-width: 2560px) {
+
+
+    .img-drag {
+        position: absolute;
+        top: 70px;
+        left: 1021px;
+    }
+}
+
+.mobile-c-m-card {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 20px; */
+    height: 615px;
+    width: 328px;
+    position: relative;
+}
+
+.img-conatiner {
+    height: 372px;
+    width: 328px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-card-img {
+    object-fit: cover;
+    height: 372px;
+    width: 328px;
+}
+
+.card-main-text {
+    position: absolute;
+    width: 219px;
+    height: 52px;
+    /* left: 0%;
+    right: 87.72%; */
+    top: 66.67%;
+    /* bottom: 24.88%; */
+
+    font-family: 'Canela Text Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 95.5%;
+    /* or 26px */
+
+    text-transform: uppercase;
+
+    color: #114141;
+}
+
+.card-sub-text {
+    position: absolute;
+    width: 328px;
+    height: 125px;
+    /* left: 0%; */
+    /* right: 81.61%; */
+    top: 79.67%;
+    /* bottom: 0%; */
+
+    font-family: 'Canela Text Trial';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 157.5%;
+    /* or 25px */
+
+    text-transform: lowercase;
+
+    color: #666666;
+}
+
+.mobile-carousal-button-container {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-button-group {
+    display: flex;
+    gap: 40px;
+    color: #114141;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 500) {}
+
+.mob-cm-carousal-container .react-multi-carousel-list {
+    /* height: 615px; */
+    margin-left: 20px;
+    /* display: none; */
+}
+
+/* .mob-cm-carousal-container {
+    cursor: none !important;
+    cursor: url("../assets/images/drag.svg"), auto ;
+} */
+
+/* .mobile-c-m-card {
+    cursor: pointer;
+    position: relative;
+ }
+ 
+ .mobile-c-m-card:before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ } */
+
+.drag-mouse {
+    background-image: url('../assets/images/drag.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    /* background-color: black; */
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    pointer-events: none;
+    width: 50px;
+    height: 50px;
+}

@@ -1,0 +1,683 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.cdnfonts.com/css/canela-text-trial');
+
+@font-face {
+    font-family: 'Halimun';
+    src: url('../assets/fonts/Halimun.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.unique-component {
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.unique-component .image-box {
+    width: 100%;
+    height: 793px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    background-size: contain;
+}
+
+.unique-component .image-box img {
+    filter: brightness(50%);
+}
+
+.unique-title {
+    font-family: Canela Text Trial;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    top: 25%;
+    width: 407px;
+    height: 41px;
+    color: #ffffffc8;
+    position: absolute;
+}
+
+.unique-caption {
+    position: absolute;
+    width: 989px;
+    top: 39%;
+    height: 50px;
+    font-family: 'Canela Text Trial';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 21px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFFc8;
+}
+
+.view-btn {
+    border-radius: 60px;
+    font-family: Arial;
+    top: 70%;
+    color: #ffffffc8;
+    font-size: 20px;
+    background: #0a131a00;
+    padding: 9px 20px 10px 20px;
+    border: solid #ffffffc8 2px;
+    text-decoration: none;
+    position: absolute;
+    cursor: pointer;
+    transition: 0.8s;
+
+}
+
+.view-btn:hover {
+    background-color: #7B7B3B;
+    color: white;
+}
+
+.luxury-stay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.luxury-title {
+    margin: 98px 0px 0px 0px;
+    width: 483px;
+    height: 7px;
+    font-family: 'halimun';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    text-align: center;
+    color: #7B7B3B;
+}
+
+.luxury-caption {
+    margin: 105px 0px 0px 0px;
+    width: 799px;
+    height: 50px;
+    font-family: 'Canela Text Trial';
+    font-style: normal;
+    text-align: center;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 157.5%;
+    color: #666666b6;
+}
+
+.unique-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 75px 240px 40px 233px;
+}
+
+@media only screen and (max-width: 767px) {
+
+   
+    .unique-title {
+        font-family: Canela Text Trial;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 41px;
+        letter-spacing: 0em;
+        text-align: center;
+        top: 25%;
+        width: 394px;
+        height: -15px;
+        color: #ffffffc8;
+        position: absolute;
+    }
+    .unique-component .image-box {
+
+        width: 777px;
+        height: 310px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+        background-size: contain;
+    }
+    .unique-caption {
+        position: absolute;
+        width: 433px;
+        top: 40%;
+        height: 92px;
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 10px;
+        text-align: center;
+        text-transform: lowercase;
+        color: #FFFFFFc8;
+        margin-top: 22px;
+    }
+
+    .view-btn {
+        border-radius: 60px;
+        font-family: Arial;
+        top: 70%;
+        width: 110px;
+        color: #ffffffc8;
+        font-size: -44px;
+        background: #0a131a00;
+        padding: 4px -16px 10px 20px;
+        border: solid #ffffffc8 1px;
+        text-decoration: none;
+        position: absolute;
+        transition: 0.8s;
+        font-size: 10px;
+        font-size: -38px;
+    }
+
+    .luxury-title {
+        margin: 50px 0px 0px 0px;
+        width: 437px;
+        height: 6px;
+        font-family: 'Dancing Script', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        text-align: center;
+        color: #7B7B3B;
+    }
+
+    .luxury-caption {
+        margin: 30px 0px 0px 0px;
+        width: 300px;
+        height: 50px;
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        text-align: center;
+        font-weight: 100;
+        font-size: 10px;
+        color: #666666;
+    }
+
+    .unique-logos {
+        width: 488px;
+        height: 29px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 40px 0px 40px 0px;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 688px) {
+    .unique-component .image-box {
+        width: 100%;
+        height: 225px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+        background-size: contain;
+    }
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 899px) {
+    .unique-component .image-box {
+        scale: 0.9;
+        width: 819px;
+        height: 322px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        background-size: contain;
+        text-align: center;
+    }
+
+    .unique-title {
+        font-family: Canela Text Trial;
+        font-size: 29px;
+        font-weight: 400;
+        line-height: 41px;
+        letter-spacing: 0em;
+        text-align: center;
+        top: 25%;
+        width: 407px;
+        height: 41px;
+        color: #ffffffc8;
+        position: absolute;
+    }
+
+    .unique-caption {
+        position: absolute;
+        width: 657px;
+        top: 40%;
+        height: 50px;
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 15px;
+        text-align: center;
+        text-transform: lowercase;
+        color: #FFFFFFc8;
+    }
+
+    .view-btn {
+        border-radius: 60px;
+        font-family: Arial;
+        top: 70%;
+        color: #ffffffc8;
+        font-size: 12px;
+        background: #0a131a00;
+        padding: 9px 20px 10px 20px;
+        border: solid #ffffffc8 2px;
+        text-decoration: none;
+        position: absolute;
+        transition: 0.8s;
+    }
+
+    .luxury-stay {
+        scale: 0.9;
+        margin-top: -100px;
+    }
+
+    .luxury-caption {
+        margin: 30px 0px 0px 0px;
+        width: 768px;
+        height: 50px;
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        text-align: center;
+        font-weight: 100;
+        font-size: 15px;
+        color: #666666;
+        margin-top: 90px;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1119px) {
+
+    .unique-component .image-box {
+        width: 910px;
+        height: 390px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+    }
+
+    .unique-title {
+        font-family: Canela Text Trial;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 41px;
+        letter-spacing: 0em;
+        text-align: center;
+        top: 25%;
+        width: 407px;
+        height: 41px;
+        color: #ffffffc8;
+        position: absolute;
+    }
+
+    .unique-caption {
+        position: absolute;
+        width: 637px;
+        top: 40%;
+        height: 50px;
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 15px;
+        text-align: center;
+        text-transform: lowercase;
+        color: #FFFFFFc8;
+    }
+
+    .view-btn {
+        border-radius: 60px;
+        font-family: Arial;
+        top: 70%;
+        color: #ffffffc8;
+        font-size: 16px;
+        background: #0a131a00;
+        padding: 9px 20px 10px 20px;
+        border: solid #ffffffc8 2px;
+        text-decoration: none;
+        position: absolute;
+        transition: 0.8s;
+    }
+}
+
+@media only screen and (min-width: 1120px) and (max-width: 1199px) {
+    .unique-component .image-box {
+        width: 1119px;
+        height: 463px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+    }
+
+    .unique-title {
+        font-family: Canela Text Trial;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 41px;
+        letter-spacing: 0em;
+        text-align: center;
+        top: 25%;
+        width: 407px;
+        height: 41px;
+        color: #ffffffc8;
+        position: absolute;
+    }
+
+    .unique-caption {
+        position: absolute;
+        width: 720px;
+        top: 40%;
+        height: 50px;
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 14px;
+        text-align: center;
+        text-transform: lowercase;
+        color: #FFFFFFc8;
+    }
+
+    .view-btn {
+        border-radius: 60px;
+        font-family: Arial;
+        top: 70%;
+        color: #ffffffc8;
+        font-size: 16px;
+        background: #0a131a00;
+        padding: 9px 20px 10px 20px;
+        border: solid #ffffffc8 2px;
+        text-decoration: none;
+        position: absolute;
+        transition: 0.8s;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+
+    .unique-component .image-box {
+        width: 100%;
+        height: 520px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+        background-size: contain;
+    }
+
+    .unique-title {
+        font-family: Canela Text Trial;
+        font-size: 31px;
+        font-weight: 400;
+        line-height: 41px;
+        letter-spacing: 0em;
+        text-align: center;
+        top: 25%;
+        width: 407px;
+        height: 41px;
+        color: #ffffffc8;
+        position: absolute;
+    }
+
+    .unique-caption {
+        position: absolute;
+        width: 812px;
+        top: 40%;
+        height: 50px;
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 16px;
+        text-align: center;
+        text-transform: lowercase;
+        color: #FFFFFFc8;
+    }
+
+    .view-btn {
+        border-radius: 60px;
+        font-family: Arial;
+        top: 70%;
+        color: #ffffffc8;
+        font-size: 16px;
+        background: #0a131a00;
+        padding: 9px 20px 10px 20px;
+        border: solid #ffffffc8 2px;
+        text-decoration: none;
+        position: absolute;
+        transition: 0.8s;
+    }
+
+    .footer-line {
+        width: 1166px;
+        height: 0px;
+        left: 60px;
+        top: 6050px;
+        margin: 44px 33px;
+        border: 1px solid #FFFFFF;
+    }
+
+    .footer-social {
+        width: 532px;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'DIN Alternate';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 146.41%;
+        text-transform: uppercase;
+        margin-left: 31px;
+        color: #FFFFFF;
+    }
+
+    .footer-div4 {
+        font-family: 'DIN Alternate';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 146.41%;
+        margin-left: 25px;
+        margin-top: 80px;
+        letter-spacing: 0.565em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .unique-component {
+        width: 100%;
+        padding-top: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1709px) {
+    .unique-component .image-box {
+        height: 532px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+    }
+
+    .unique-title {
+        font-family: Canela Text Trial;
+        font-size: 33px;
+        font-weight: 400;
+        line-height: 41px;
+        letter-spacing: 0em;
+        text-align: center;
+        top: 25%;
+        width: 407px;
+        height: 41px;
+        color: #ffffffc8;
+        position: absolute;
+    }
+
+    .unique-caption {
+        position: absolute;
+        width: 858px;
+        top: 40%;
+        height: 50px;
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 15px;
+        text-align: center;
+        text-transform: lowercase;
+        color: #FFFFFFc8;
+    }
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 2000px) {
+
+
+
+
+    .unique-component .image-box {
+        width: 100%;
+        height: 811px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+        background-size: contain;
+    }
+
+
+}
+
+@media only screen and (min-width: 2001px) and (max-width: 2560px) {
+
+    .unique-component .image-box {
+        width: 100%;
+        height: 1036px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+        background-size: contain;
+    }
+
+}
+
+.unique-mobile {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-mobile-unique {
+    width: 90%;
+    height: 400px;
+    border-radius: 25px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    overflow: hidden;
+    margin-left: 0px;
+
+}
+
+.image-mobile-unique img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(65%);
+
+
+}
+
+.unique-title-mobile {
+    margin-top: -361px;
+    position: relative;
+    color: white;
+    font-weight: 400;
+    font-size: xx-large;
+    width: 340px;
+    font-family: Canela Text Trial;
+
+}
+
+.unique-caption-mobile {
+    position: absolute;
+    margin-top: -4px;
+    width: 340px;
+    height: 125px;
+    /* left: 43px; */
+    /* top: 143px; */
+    font-family: 'Canela Text Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 157.5%;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+
+
+}
+
+.view-btn-mobile {
+    border-radius: 60px;
+    font-family: Arial;
+    top: 70%;
+    color: #ffffffc8;
+    font-size: 16px;
+    background: #0a131a00;
+    padding: 5px 20px 10px 20px;
+    border: solid #ffffffc8 2px;
+    text-decoration: none;
+    /* position: absolute; */
+    transition: 0.8s;
+    width: 152px;
+    margin-top: 181px;
+    height: 30px;
+    position: sticky;
+}
+
+.luxury-title-mobile {
+    font-family: 'Halimun';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 53px;
+    text-align: center;
+    margin-top: 50px;
+    color: #7B7B3B;
+    /* padding-left: 32px; */
+}
+
+.luxury-caption-mobile {
+    text-align: center;
+    /* left: 20px; */
+    position: absolute;
+    right: 20px;
+    width: 352px;
+    line-height: 157.5%;
+    margin-top: 25px;
+    /* or 25px */
+
+    text-align: center;
+    text-transform: lowercase;
+
+    color: #666666;
+}
+
+.unique-logos-mobile {
+    /* justify-content: space-evenly; */
+    margin-top: 185px;
+    margin-bottom: 83px;
+    overflow-x: scroll;
+    display: flex;
+    gap: 58px;
+    margin-left: 20px;
+
+}
